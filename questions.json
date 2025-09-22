@@ -8,18 +8,6 @@
         "answer": "wood"
     },
     {
-        "image": "images/Tennis-shoes.png",
-        "answer": "tennis-shoes"
-    },
-    {
-        "image": "images/shoes.png",
-        "answer": "shoes"
-    },
-    {
-        "image": "images/sandals.png",
-        "answer": "sandals"
-    },
-    {
         "image": "images/plastic1.png",
         "answer": "plastic"
     },
@@ -60,10 +48,6 @@
         "answer": "glass"
     },
     {
-        "image": "images/flip-flops.png",
-        "answer": "flip-flops"
-    },
-    {
         "image": "images/fabric1.png",
         "answer": "fabric"
     },
@@ -74,9 +58,5 @@
     {
         "image": "images/ceramic.png",
         "answer": "ceramic"
-    },
-    {
-        "image": "images/boots.png",
-        "answer": "boots"
     }
 ]

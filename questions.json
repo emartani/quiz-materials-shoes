@@ -1,0 +1,82 @@
+[
+    {
+        "image": "images/wood.png",
+        "answer": "wood"
+    },
+    {
+        "image": "images/wood1.png",
+        "answer": "wood"
+    },
+    {
+        "image": "images/Tennis-shoes.png",
+        "answer": "tennis-shoes"
+    },
+    {
+        "image": "images/shoes.png",
+        "answer": "shoes"
+    },
+    {
+        "image": "images/sandals.png",
+        "answer": "sandals"
+    },
+    {
+        "image": "images/plastic1.png",
+        "answer": "plastic"
+    },
+    {
+        "image": "images/plastic.png",
+        "answer": "plastic"
+    },
+    {
+        "image": "images/paper1.png",
+        "answer": "paper"
+    },
+    {
+        "image": "images/paper.png",
+        "answer": "paper"
+    },
+    {
+        "image": "images/metal.png",
+        "answer": "metal"
+    },
+    {
+        "image": "images/metal1.png",
+        "answer": "metal"
+    },
+    {
+        "image": "images/leather.png",
+        "answer": "leather"
+    },
+    {
+        "image": "images/leather1.png",
+        "answer": "leather"
+    },
+    {
+        "image": "images/glass.png",
+        "answer": "glass"
+    },
+    {
+        "image": "images/glass1.png",
+        "answer": "glass"
+    },
+    {
+        "image": "images/flip-flops.png",
+        "answer": "flip-flops"
+    },
+    {
+        "image": "images/fabric1.png",
+        "answer": "fabric"
+    },
+    {
+        "image": "images/fabric.png",
+        "answer": "fabric"
+    },
+    {
+        "image": "images/ceramic.png",
+        "answer": "ceramic"
+    },
+    {
+        "image": "images/boots.png",
+        "answer": "boots"
+    }
+]

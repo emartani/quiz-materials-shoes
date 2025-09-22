@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Ingles</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KS9SCT4W');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body onload="stopBounceAfter5Seconds()">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KS9SCT4W"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="start-screen" class="bounce">
+        <h1>Vamos aprender sobre materiais e calçados!</h1>
+        <label>Escolha a dificuldade:</label>
+        <select id="difficulty">
+            <option value="easy">Fácil (2 opções)</option>
+            <option value="medium">Médio (3 opções)</option>
+            <option value="hard">Difícil (4 opções)</option>
+        </select>
+        <button onclick="startGame()">Começar</button>
+    </div>
+
+    <div id="game-container" class="hidden">
+        <h2 id="question">Como se chama esse item da foto?</h2>
+        <div id="question-number"></div>
+        <img id="question-image" src="" alt="Imagem da pergunta" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+        <div id="answers"></div>
+        <div id="scoreboard">
+            <div class="score-box">✅ Acertos: <span id="score">0</span></div>
+            <div class="score-box">❌ Erros: <span id="mistakes">0</span></div>
+        </div>
+        <button onclick="resetGame()">Reiniciar</button>
+    </div>
+
+    <div id="fireworks" class="hidden">
+        <img src="sucesso.gif" alt="Fogos de artifício">
+    </div>
+
+    <audio id="correct-sound" src="acerto.mp3"></audio>
+    <audio id="wrong-sound" src="erro.mp3"></audio>
+
+    <script src="script.js"></script>
+    <footer>
+        Desenvolvido por Emerson Martani
+    </footer>
+</body>
+</html>

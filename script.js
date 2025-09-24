@@ -49,7 +49,7 @@ function loadQuestion() {
 
     const questionObj = questions[currentQuestionIndex];
     document.getElementById("question-image").src = questionObj.image;
-    document.getElementById("question").textContent = "Como se chama esse item da foto?";
+    document.getElementById("question").textContent = "De que material é feito esse item da foto?";
 
     // Atualizar o número da questão exibido
     document.getElementById("question-number").textContent = `${currentQuestionIndex + 1} de ${questions.length}`;
